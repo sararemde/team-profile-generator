@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(193, 16, 16);
+    --secondary: rgb(75, 74, 74);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar {
+    background-color: var(--secondary);
+    color: var(--primary);
+    font-size: 75px;
+}
+
+.navbar-brand {
+    font-size: 75px;
+}
+
+a:link {
+    color: black;
+}
+
+.card-body {
+    background-color: var(--secondary);
+    color: black;
+}
+
+.card-header {
+    background-color: var(--primary);
+    color: var(--secondary)
+}
